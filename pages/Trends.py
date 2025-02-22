@@ -8,6 +8,7 @@ from binance.client import Client
 from PIL import Image
 import matplotlib.dates as mdates
 from fastapi import FastAPI
+import os
 
 app = FastAPI()
 

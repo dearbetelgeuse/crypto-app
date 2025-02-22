@@ -5,6 +5,7 @@ from binance.client import Client
 import plotly.graph_objects as go
 from PIL import Image
 from fastapi import FastAPI
+import os 
 
 app = FastAPI()
 
