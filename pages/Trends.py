@@ -19,6 +19,9 @@ def home():
 # Binance API credentials
 API_KEY = os.getenv('API_KEY')
 API_SECRET = os.getenv('API_SECRET')
+# FastAPI
+API_URL=  "https://crypto-app-y0jm.onrender.com"
+
 
 # Initialize Binance client
 client = Client(API_KEY, API_SECRET)
