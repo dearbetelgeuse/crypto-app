@@ -4,10 +4,12 @@ import numpy as np
 from binance.client import Client
 import plotly.graph_objects as go
 from PIL import Image
+from fastapi import FastAPI
+
+app = FastAPI()
 
 # Binance API credentials
-API_KEY = 'WSjfDlJuucZ72x5GcbTVygkrJ1QCUpf0lAiebDiUJ3yOS1O9lfa8gm1O9q36FhIG'
-API_SECRET = 'stBbha4syLIjr7dRcnGqdbIR1Zf0SXZiQDLNWJy0I7l1SkYJmHDIkDPJdXoR4rNT'
+## FETCHED FROM ENVIRONMENTAL VARIABLES 
 
 # Initialize Binance client
 client = Client(API_KEY, API_SECRET)

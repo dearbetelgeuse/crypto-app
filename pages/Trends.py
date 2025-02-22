@@ -9,9 +9,10 @@ from PIL import Image
 import matplotlib.dates as mdates
 from fastapi import FastAPI
 
+app = FastAPI()
+
 # Binance API credentials
-API_KEY = 'WSjfDlJuucZ72x5GcbTVygkrJ1QCUpf0lAiebDiUJ3yOS1O9lfa8gm1O9q36FhIG'
-API_SECRET = 'stBbha4syLIjr7dRcnGqdbIR1Zf0SXZiQDLNWJy0I7l1SkYJmHDIkDPJdXoR4rNT'
+## FETCHED FROM ENVIRONMENT VARIABLES
 
 # Initialize Binance client
 client = Client(API_KEY, API_SECRET)
