@@ -1,6 +1,6 @@
 streamlit
 pandas
 numpy
-binance
+python-binance
 plotly
 pillow
