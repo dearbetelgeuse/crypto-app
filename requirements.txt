@@ -3,4 +3,4 @@ pandas
 numpy
 binance
 plotly
-PIL
+pillow
