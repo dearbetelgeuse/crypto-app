@@ -12,7 +12,8 @@ from fastapi import FastAPI
 app = FastAPI()
 
 # Binance API credentials
-## FETCHED FROM ENVIRONMENT VARIABLES
+API_KEY = os.getenv('API_KEY')
+API_SECRET = os.getenv('API_SECRET')
 
 # Initialize Binance client
 client = Client(API_KEY, API_SECRET)
