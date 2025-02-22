@@ -9,6 +9,10 @@ import os
 
 app = FastAPI()
 
+@app.get("/")
+def home():
+    return {"message": "FastAPI is running!"}
+
 # Binance API credentials
 API_KEY = os.getenv('API_KEY')
 API_SECRET = os.getenv('API_SECRET')
